@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		DF3DE3D81CBA2FD700836E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DE3D71CBA2FD700836E0B /* AppDelegate.swift */; };
-		DF3DE3DA1CBA2FD700836E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DE3D91CBA2FD700836E0B /* ViewController.swift */; };
+		DF3DE3DA1CBA2FD700836E0B /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3DE3D91CBA2FD700836E0B /* CalculatorViewController.swift */; };
 		DF3DE3DD1CBA2FD700836E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3DE3DB1CBA2FD700836E0B /* Main.storyboard */; };
 		DF3DE3DF1CBA2FD700836E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3DE3DE1CBA2FD700836E0B /* Assets.xcassets */; };
 		DF3DE3E21CBA2FD700836E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3DE3E01CBA2FD700836E0B /* LaunchScreen.storyboard */; };
+		DFB8FF8E1CBA355A003D68E8 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB8FF8D1CBA355A003D68E8 /* CalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF3DE3D41CBA2FD700836E0B /* Calculator_MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator_MVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3DE3D71CBA2FD700836E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF3DE3D91CBA2FD700836E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF3DE3D91CBA2FD700836E0B /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		DF3DE3DC1CBA2FD700836E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF3DE3DE1CBA2FD700836E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF3DE3E11CBA2FD700836E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF3DE3E31CBA2FD700836E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB8FF8D1CBA355A003D68E8 /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				DF3DE3D71CBA2FD700836E0B /* AppDelegate.swift */,
-				DF3DE3D91CBA2FD700836E0B /* ViewController.swift */,
+				DF3DE3D91CBA2FD700836E0B /* CalculatorViewController.swift */,
 				DF3DE3DB1CBA2FD700836E0B /* Main.storyboard */,
 				DF3DE3DE1CBA2FD700836E0B /* Assets.xcassets */,
 				DF3DE3E01CBA2FD700836E0B /* LaunchScreen.storyboard */,
 				DF3DE3E31CBA2FD700836E0B /* Info.plist */,
+				DFB8FF8D1CBA355A003D68E8 /* CalculatorModel.swift */,
 			);
 			path = Calculator_MVC;
 			sourceTree = "<group>";
@@ -136,7 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3DE3DA1CBA2FD700836E0B /* ViewController.swift in Sources */,
+				DFB8FF8E1CBA355A003D68E8 /* CalculatorModel.swift in Sources */,
+				DF3DE3DA1CBA2FD700836E0B /* CalculatorViewController.swift in Sources */,
 				DF3DE3D81CBA2FD700836E0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				DF3DE3E81CBA2FD700836E0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
